@@ -41,9 +41,60 @@ h1{
     align-items: center;
     justify-content: center;
 }
+#richie{
+    border-radius: 50%;
+    padding: 20px;
+}
+.changeColor{
+    background-color: #345533;
+}
 .fond{
     background-color: indigo;
 }
 @media screen and(max-width:1200px) {
     
+}
+form{
+    margin: 10%;
+    border: 1px solid black;
+
+}
+label input{
+    margin: 5%;
+}
+.form
+{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+    
+
+}
+#formulaire
+{
+display: flex;
+flex-direction: column;
+width: 500px;
+margin: auto;
+
+}
+button{
+    width: 70px;
+}
+.form-control{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+
+}
+#submit{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.rh{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }

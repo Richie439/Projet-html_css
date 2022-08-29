@@ -27,10 +27,33 @@
     </div>
   </div>
   <div id="bonton-container">
-    <button id="richie">cliquer</button>
+    <button id="richie" onclick="changeFond()">cliquer</button>
   </div>
-  <div></div>
   
+  <div class="form">
+    <form id="formulaire">
+      <label for="prenom">prenom</label><br>
+      <input type="texte" class="form-control" id="prenom"><br>
+      <div id="prenom-erreur"></div>
+      <label for="nom">nom</label><br>
+      <input type="texte" class="form-control" id="nom"><br>
+      <div id="nom-erreur"></div>
+      <label for="email">email</label><br>
+      <input type="email" class="form-control" id="email"><br>
+      <div id="email-erreur"></div>
+      <label for="commentaire">commentaire</label><br>
+      <textarea name="commentaire" id="message" cols="30" rows="10" class="form-control"></textarea>
+      <div id="commentaire-erreur"></div>
+      <div class="rh">
+        <button type="submit" id="submit">soumettre</button>
+      </div>
+     
+    </form>
+    <div id="result"></div>
+  </div>
+ 
+
+ 
   <script src="bonton.js"></script>
 </body>
 </html>  
